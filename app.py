@@ -7,7 +7,7 @@ df1 = pd.read_csv('data.csv')
 
 X = pd.read_csv('x_dataset.csv')
 
-st.title("Real E-state Price Predictor")
+st.title("Real Estate Price Predictor")
 
 file = pickle.load(open('file.pkl', 'rb'))
 
