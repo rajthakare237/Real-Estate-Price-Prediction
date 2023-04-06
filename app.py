@@ -40,5 +40,4 @@ def predict_price(location, sqft, bath, bhk):
 
 if st.button('Predict Price'):
     ans = predict_price(locate, sqft, bath, bhk)
-
-st.header(ans)
+    st.header(ans)
