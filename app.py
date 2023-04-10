@@ -9,7 +9,7 @@ X = pd.read_csv('x_dataset.csv')
 
 st.title("Real Estate Price Predictor")
 
-st.text("Accepts only dataset values. Sample - Uttarahalli, 1440, 2, 3")
+st.subheader("Accepts only dataset values. Sample - Uttarahalli, 1440, 2, 3")
 
 file = pickle.load(open('file.pkl', 'rb'))
 
